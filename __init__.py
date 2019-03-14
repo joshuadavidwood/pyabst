@@ -5,7 +5,7 @@ import re
 
 
 
-def PyAbs(text, target_words=[], word_weight=1):
+def PyAbst(text, target_words=[], word_weight=1):
     '''A function which returns the most important sentences from a list of sentences using common word weighting.'''
 
 
