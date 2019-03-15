@@ -26,10 +26,9 @@ The calculation required 170TB of data (for comparison, 200,000 music tracks tak
 <i>Source: https://www.bbc.co.uk/news/technology-47524760</i>
 
 #### Example 1: Default Arguments
-print(PyAbst(input_text, [], 1)[0], '\n')
-print('Original text reduced by: ', PyAbst(input_text, [], 1)[1])
+Output: <br>
 
-The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders. The calculation required 170TB of data (for comparison, 200,000 music tracks take up 1TB) and took 25 virtual machines 121 days to complete.
+<i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders. The calculation required 170TB of data (for comparison, 200,000 music tracks take up 1TB) and took 25 virtual machines 121 days to complete.</i>
 
 #### Frequently Asked Questions
 Work in progress.
