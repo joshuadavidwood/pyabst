@@ -28,7 +28,22 @@ The calculation required 170TB of data (for comparison, 200,000 music tracks tak
 #### Example 1: Default Arguments
 Output: <br>
 
-<i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders. The calculation required 170TB of data (for comparison, 200,000 music tracks take up 1TB) and took 25 virtual machines 121 days to complete.</i>
+<i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders. The calculation required 170TB of data (for comparison, 200,000 music tracks take up 1TB) and took 25 virtual machines 121 days to complete.</i><br>
+
+#### Example 2: target_words = 'Japan', word_weighting = 1000000 
+Output: <br>
+
+<i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Emma Haruka Iwao, a Google employee from Japan, found the new digits with the help of the companys cloud computing service. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders.</i><br>
+
+#### Example 3: target_words = 'number', word_weighting = -1000000 
+Output: <br>
+
+<i>Emma Haruka Iwao, a Google employee from Japan, found the new digits with the help of the companys cloud computing service. Pi is used in engineering, physics, supercomputing and space exploration - because its value can be used in calculations for waves, circles and cylinders. The pursuit of longer versions of pi is a long-standing pastime among mathematicians. The calculation required 170TB of data (for comparison, 200,000 music tracks take up 1TB) and took 25 virtual machines 121 days to complete.</i><br>
+
+#### Smmry Comparison
+When you ingest the same text into Smmry ([www.smmry.com](www.smmry.com)). with select a 5 sentence argument we find the results to match Example 3. However, PyAbs replaces <i>'The first digits, 3.14, are well known but the number is infinitely long.'</i> with <i>'And Ms Iwao said she had been fascinated by the number since she had been a child.'</i>.<br>
+
+The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Pi is the number you get when you divide a circles circumference by its diameter. The first digits, 3.14, are well known but the number is infinitely long. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern.<br>
 
 #### Frequently Asked Questions
 Work in progress.
