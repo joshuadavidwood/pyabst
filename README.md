@@ -43,7 +43,7 @@ Output: <br>
 #### Smmry Comparison
 When you ingest the same text into Smmry ([www.smmry.com](www.smmry.com)). with select a 5 sentence argument we find the results to match Example 3. However, PyAbs replaces <i>'The first digits, 3.14, are well known but the number is infinitely long.'</i> with <i>'And Ms Iwao said she had been fascinated by the number since she had been a child.'</i>.<br>
 
-The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Pi is the number you get when you divide a circles circumference by its diameter. The first digits, 3.14, are well known but the number is infinitely long. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern.<br>
+<i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Pi is the number you get when you divide a circles circumference by its diameter. The first digits, 3.14, are well known but the number is infinitely long. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern.</i><br>
 
 #### Frequently Asked Questions
 Work in progress.
