@@ -45,8 +45,11 @@ When you ingest the same text into Smmry ([www.smmry.com](www.smmry.com)). with 
 
 <i>The value of the number pi has been calculated to a new world record length of 31 trillion digits, far past the previous record of 22 trillion. Pi is the number you get when you divide a circles circumference by its diameter. The first digits, 3.14, are well known but the number is infinitely long. Extending the known sequence of digits in pi is very difficult because the number follows no set pattern.</i><br>
 
-#### Frequently Asked Questions
+### PyAbstEE (Entity Extraction) 
+PyAbstEE is an extension to the PyAbst library which uses the SpaCy natural language processing library to increase the probability that sentences including entities are returned. Entities extracted using the SpaCy library are added to a separate dictionary, target_entities, which does not include cardinal, ordinal and date entities. Entities within target_entities have four times the weighting of words not present within the target_entities dictionary.
+
+### Frequently Asked Questions
 Work in progress.
 
-#### Troubleshooting
+### Troubleshooting
 Work in progress.
